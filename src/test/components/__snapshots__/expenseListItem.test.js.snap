@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing expense List item 1`] = `
+<div>
+  <Link
+    replace={false}
+    to="/edit/1232"
+  >
+    <h3>
+      Chew
+    </h3>
+  </Link>
+  <p>
+    2
+    -
+  </p>
+</div>
+`;

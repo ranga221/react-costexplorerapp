@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Expense List 1`] = `
+<div>
+  <h1>
+    Expense List
+  </h1>
+  <Connect(ExpenseListItem)
+    amount={2}
+    createdAt={0}
+    description="Chew"
+    id={1232}
+    key="1232"
+    note=""
+  />
+  <Connect(ExpenseListItem)
+    amount={3}
+    createdAt={-1000}
+    description="Gas Bill"
+    id={12325}
+    key="12325"
+    note=""
+  />
+  <Connect(ExpenseListItem)
+    amount={10}
+    createdAt={-1000}
+    description="Bus Bill"
+    id={12327}
+    key="12327"
+    note=""
+  />
+</div>
+`;
