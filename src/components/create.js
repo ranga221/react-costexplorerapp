@@ -6,7 +6,7 @@ import {connect} from 'react-redux';
 export class addExpensePage extends React.Component{
     onSubmit = (expense) => {
    this.props.onSubmit(expense);
-   props.history.push('/');
+   this.props.history.push('/');
     
 };
 
