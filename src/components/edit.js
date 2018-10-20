@@ -7,15 +7,17 @@ const EditExpenseDashboardPage = (props) => {
   
     console.log(props);
   return (
-    <div>
-    <ExpenseForm  
+    <div  className="page-header" >
+    <div className="content-container"> 
+    <ExpenseForm 
     expense={props.expense}
     onSubmit={(expense) => {
       props.dispatch(editExpense(props.match.params.id, expense ));
-      props.history.push('/');
+      props.history.push('/dash');
       
     }}
     />
+    </div>
    </div>
   );
 };

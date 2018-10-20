@@ -1,0 +1,11 @@
+.button-layout__box {
+    background: fade-out($color: rgb(0, 102, 255), $amount: .15);
+    color: white;
+    border-radius: 1px;
+    padding: $s-size;
+    text-align: center;
+    width: 10rem;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+}

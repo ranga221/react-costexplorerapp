@@ -62,13 +62,15 @@ this.state={
     };
     render() {
         return(
-            <div>
-            {this.state.error && <p>{this.state.error}</p>}
-          <form onSubmit={this.onSubmit}>
+          
+        
+          <form className="form" onSubmit={this.onSubmit}>
+          {this.state.error && <p className="form__error">{this.state.error}</p>}
           <input 
           type="text"
           placeholder="Description"
           autoFocus
+          className="text-input"
           value={this.state.description}
           onChange={this.onDescriptionChange}
           
@@ -76,11 +78,13 @@ this.state={
           <input 
           type="number"
           placeholder="Amount"
+          className="text-input"
           value={this.state.amount}
           onChange={this.onAmountChange}
            />
           <textarea
           placeholder='Add for Text'
+          className="text-input"
           value={this.state.note}
           onChange={this.onTextChange}
           >
@@ -91,10 +95,12 @@ this.state={
           focused={this.state.focused}
           onFocusChange={this.onFocusChange}
           />
-          
-          <button>Add Expense</button>
+          <div>
+          <button className="button">Add Expense</button>
+          </div>
+         
           </form>
-            </div>
+           
         )
     }
 

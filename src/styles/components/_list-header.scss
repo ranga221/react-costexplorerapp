@@ -1,0 +1,27 @@
+.list-header{
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size $m-size;
+}
+
+
+.list-item {
+    border: 1px solid darken(white, 7%);
+    border-top: none;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    padding: $s-size;
+    text-decoration: none;
+    transition: background .3s ease;
+    &:hover {
+     background: white;
+    }
+   
+        flex-direction: row;
+        justify-content: space-between;
+        padding: $m-size;
+        
+   
+} 
