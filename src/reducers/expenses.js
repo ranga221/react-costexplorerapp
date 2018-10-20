@@ -22,6 +22,8 @@ if(expense.id === action.id) {
 };
 
 } );
+case 'SET_EXPENSES':
+return action.expenses;
     default:
     return state;
 }

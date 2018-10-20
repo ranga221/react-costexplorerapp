@@ -13,3 +13,6 @@ const ExpenseListItemForTest = ({id, description, amount, creadtedAt}) => (
 );
 
 export default ExpenseListItemForTest;
+
+
+
